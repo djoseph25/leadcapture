@@ -1,5 +1,5 @@
-
-import LandingPage from './Home'
+import React from 'react';
+import Hero from './Hero';
 import LearnMore from './LearnMore';
 import Health from './HealthQuotes';
 import Life from './LifeQuotes';
@@ -19,8 +19,8 @@ function App() {
 	return (
 		<>
 			<Switch>
-				<Route exact path="/" component={LandingPage} />
-				<Route exact path="/Home" component={LandingPage} />
+				<Route exact path="/" component={Hero} />
+				<Route exact path="/Home" component={Hero} />
 				<Route path="/LearnMore" component={LearnMore} />
 				<Route path="/Home/HealthQuotes" component={Health} />
 				<Route path="/Home/LifeQuotes" component={Life} />
@@ -41,3 +41,4 @@ function App() {
 }
 
 export default App;
+
