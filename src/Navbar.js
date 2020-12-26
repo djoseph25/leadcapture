@@ -43,7 +43,7 @@ function Navbar() {
 							Home
 						</button>
 					</Link>
-					<Link to="/Home/HealthQuotes">
+					<Link to="/HealthQuotes">
 						<button className="link-btn" onMouseOver={displaySubmenu}>
 							Get Insurance
 						</button>

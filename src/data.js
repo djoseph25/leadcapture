@@ -7,34 +7,34 @@ const sublinks = [
 			{
 				label: 'Health Insurance',
 				icon: <FaCreditCard />,
-				url: 'Home/HealthQuotes',
+				url: '/HealthQuotes',
 			},
 			{
 				label: 'Medicare Insurance',
 				icon: <FaCreditCard />,
-				url: '/Home/MedicareQuotes',
+				url: '/MedicareQuotes',
 			},
 			{
 				label: 'Life Insurance',
 				icon: <FaCreditCard />,
-				url: '/Home/LifeQuotes',
+				url: '/LifeQuotes',
 			},
 		],
 	},
 	{
 		page: 'Get Insurance',
 		links: [
-			{ label: 'Health', icon: <FaBook />, url: '/Home/HealthQuotes' },
-			{ label: 'Medicare', icon: <FaBook />, url: '/Home/MedicareQuotes' },
-			{ label: 'Dental', icon: <FaBook />, url: '/Home/DentalQuotes' },
-			{ label: 'Life', icon: <FaBook />, url: '/Home/LifeQuotes' },
+			{ label: 'Health', icon: <FaBook />, url: '/HealthQuotes' },
+			{ label: 'Medicare', icon: <FaBook />, url: '/MedicareQuotes' },
+			{ label: 'Dental', icon: <FaBook />, url: '/DentalQuotes' },
+			{ label: 'Life', icon: <FaBook />, url: '/LifeQuotes' },
 		],
 	},
 	{
 		page: 'Learn More',
 		links: [
 			{ label: 'Question', icon: <FaBriefcase />, url: '/LearnMore' },
-			{ label: 'Articles', icon: <FaBriefcase />, url: '/LearnMore' },
+			{ label: 'Articles', icon: <FaBriefcase />, url: '/Article' },
 		],
 	},
 	{

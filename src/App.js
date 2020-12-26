@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from './Hero';
 import LearnMore from './LearnMore';
+import Articles from './LearnComponent/Article'
 import Health from './HealthQuotes';
 import Life from './LifeQuotes';
 import Medicare from './MedicareQuotes';
@@ -22,10 +23,11 @@ function App() {
 				<Route exact path="/" component={Hero} />
 				<Route exact path="/Home" component={Hero} />
 				<Route path="/LearnMore" component={LearnMore} />
-				<Route path="/Home/HealthQuotes" component={Health} />
-				<Route path="/Home/LifeQuotes" component={Life} />
-				<Route path="/Home/MedicareQuotes" component={Medicare} />
-				<Route path="/Home/DentalQuotes" component={Dental} />
+				<Route path="/Article" component={Articles} />
+				<Route path="/HealthQuotes" component={Health} />
+				<Route path="/LifeQuotes" component={Life} />
+				<Route path="/MedicareQuotes" component={Medicare} />
+				<Route path="/DentalQuotes" component={Dental} />
 				<Route path="/ThankYou" component={Submit} />
 				<Route path="/AdminUser/AuthorizedUserOnly" component={AuthorizedOnly} />
 				<ProtectedRoute
