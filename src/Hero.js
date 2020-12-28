@@ -19,24 +19,24 @@ const LandingPage = () => {
 			<Submenu />
 			<section className="insurance" onMouseOver={closeSubmenu}>
 				<h2>Get 2021 Insurance Coverage!</h2>
-				<Link to="/Home/HealthQuotes">
-					<button className="get-quote">Get A Quote Now</button>
+				<Link to="/HealthQuotes">
+					<button className="get-quote effect01">Get A Quote Now</button>
 				</Link>
 				<div className="links">
-					<Link to="Home/HealthQuotes">
+					<Link to="HealthQuotes">
 						<img src={planner} alt={planner} className="img" />
 						<div>Health</div>
 					</Link>
-					<Link to="Home/DentalQuotes">
+					<Link to="DentalQuotes">
 						<img src={dental} alt={dental} className="img" />
 						<div>Dental</div>
 					</Link>
 
-					<Link to="Home/MedicareQuotes">
+					<Link to="MedicareQuotes">
 						<img src={heart} alt={heart} className="img" />
 						<div>Medicare</div>
 					</Link>
-					<Link to="Home/LifeQuotes">
+					<Link to="LifeQuotes">
 						<img src={life} alt={life} className="img" />
 						<div>Life</div>
 					</Link>

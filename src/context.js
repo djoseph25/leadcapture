@@ -31,7 +31,11 @@ export const AppProvider = ({ children }) => {
 	const [HealthCondition, setHealthCondition] = useState('');
 	const [MedicareStatus, setMedicareStatus] = useState('');
 	const [MedicareProducts, setMedicareProducts] = useState('');
+	const [Login, setLogin] = useState('')
 
+const handleLogin = (e) => { 
+	setLogin(e.target.value)
+} 
 	/* ********** Form On Change************/
 	const handleFullName = (e) => {
 		setFullName(e.target.value);
@@ -173,6 +177,8 @@ export const AppProvider = ({ children }) => {
 				/******** Login Form Modal Provider ******/
 				login,
 				logout,
+				Login, 
+				handleLogin,
 				loginModal,
 				/******** Form Context Provider ******/
 				AddPost,
